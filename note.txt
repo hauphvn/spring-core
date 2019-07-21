@@ -20,6 +20,28 @@ class A{
     }
 }
 
+------POJO---------
+Pojo la mot object khong co bat cu rang buoc nao ca.
+Pojo khong nen thua ke cac class, except cac class trong Java lang...
+Pojo nen co hang khoi tao khong tham so
+Pojo khong nen thua ke interface de trach phu thuoc api
+Pojo khong nen co annotation trong khai bao cua no
+
+-------Java Bean va Spring Bean--------
+Java Bean:
+La cac class co ham khoi tao khong tham so duoc dac public
+Co the goi cac ham nay de khoi tao object
+Phai co getter va setter de truy cap
+Phai implement java.io.Serializable: de truy qua mang.
+
+Spring Beans:
+La cac object duoc quan li boi spring
+La nhung object duoc cau hinh va khoi tao boi spring container
+Chung duoc khai bao va dinh nghia trong cac file configuration, annotation, ref..
+Spring Beans khong nhat thiet phai la Java bean
+Khong can cac ham khoi tao khong tham so, ko can serializable
+
+
 
 --------XML Configuration------------
 <?xml version="1.0" encoding="UTF-8"?>
