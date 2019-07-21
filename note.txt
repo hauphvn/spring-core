@@ -1,6 +1,24 @@
 Neu chung ta khong design khong co Interface cho repository, service
 thi khong the su dung duoc tinh da hinh.
 
+IoC
+DI: la mot dang cua ioc
+IoC Container: la mot dang cu the cua DI
+Spring framework su dung mot dang cua DI do la: IoC Container : do la Spring bean
+- Constructor Injection
+class A{
+    private B b;
+    public A(B b){
+        this.b = b;
+    }
+}
+- Setter Injection
+class A{
+    private B b;
+    public void setB(B b){
+        this.b = b;
+    }
+}
 
 
 --------XML Configuration------------
