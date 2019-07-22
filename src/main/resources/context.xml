@@ -3,4 +3,15 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <bean name="studentService" class="edu.springcore.service.StudentServiceEmpl" autowire="byType">
+<!--        Cach su dung Setter Injection-->
+<!--        <property name="studentRepository" ref="studentRepositoryImpl"/>-->
+<!--        Cach su dung Constructor Injection-->
+<!--        <constructor-arg name="studentRepository" ref="studentRepositoryImpl"/>-->
+<!--        Neu khong su dung 2 cach tren ta se dung dung autowired-->
+    </bean>
+    <bean name="studentRepository" class="edu.springcore.repository.StudentRepositoryEmpl"/>
+
+
+
 </beans>

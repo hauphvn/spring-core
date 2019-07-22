@@ -20,6 +20,15 @@ class A{
     }
 }
 
+----Autowired------
+La concept thuc hien Injection tu dong trong spring framework
+Chung ta khong can khai bao <property> hay <construction-argu>..
+autowired = default: se goi ham default constructor khong param
+autowired = constructor : se goi ham constructor 1 param
+autowired = byName: se mapping all cac nam trong bean xem cai bean trong file context co
+name giong voi property trong java class.
+autowired = byType: se su dung nguyen mot class.
+
 ------POJO---------
 Pojo la mot object khong co bat cu rang buoc nao ca.
 Pojo khong nen thua ke cac class, except cac class trong Java lang...
